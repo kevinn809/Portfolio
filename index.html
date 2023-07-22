@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sidebar.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>PortFolio</title>
+</head>
+<body>
+
+    <!-- HEADER -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo-header">
+                <a href="">Mkevin</a>
+            </div>
+            <nav id="nav" class="responsive">
+                <ul>
+                    <li><a href="#inicio" onclick="sleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="sleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="sleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="sleccionar()">CURRICULUM</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-sharp fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenedor-banner">
+            <div class="contenedor-img">
+                <img src="img/monkey-banana.png" alt="monkey-banana">
+            </div>
+            <h1>Villanueva Kevin</h1>
+            <h2>Desarrollador Web Junior</h2>
+            <div class="redes">
+                <a href="https://www.instagram.com/malokevin_/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/malokevinjz/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre mí</h2>
+                <p><span>Hola, soy Kevin Villanueva</span>. Actualmente, tengo 17 años y sigo estudiando en la secundaria (cursando él ante último año).
+                     Hace un tiempo me di cuenta de que la informática era lo que más me llamaba la atención, psique, yo mismo me
+                      inscribí en una escuela Técnica de Informática y Programación. Todavía me queda mucho por aprender, pero
+                       siempre estoy dando mi mayor esfuerzo, aunque a veces me da persa, pero nunca bajo los brazos</p>
+
+                <div class="fila">
+                <!-- DATOS PERSONALES -->
+                    <div class="col">   
+                        <h3>Datos Pesronales</h3>
+                        <ul>
+                            <li>
+                                <strong>Fecha de Nacimiento</strong>
+                                15-04-2006
+                            </li>
+                            <li>
+                                <strong>Teléfono (celular)</strong>
+                                +54 9 11 2718-7883
+                            </li>
+                            <li>
+                                <strong>Email</strong>
+                                kevinlautarovillanueva809@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- Pasatiempos -->
+                    <div class="col">
+                        <h3>Pasatiempos</h3>
+                        <div class="contenedor-interes">
+                            <div class="interes">
+                                <i class="fa-solid fa-gamepad"></i>
+                                    <span>Juegos</span>
+                            </div>
+                            <div class="interes">
+                                <i class="fa-solid fa-headphones"></i>
+                                <span>Musica</span>
+                            </div>
+                             <div class="interes">
+                                <i class="fa-solid fa-book"></i>
+                                    <span>Leer</span>
+                             </div>   
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button>
+                    Descargar CV <i class="fa-solid fa-download"></i>
+                    <span class="overlay"></span>
+                </button>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skills -->
+                <div class="col">
+                    <h3>Tachtical Skills</h3>
+                    <div class="skill">
+                        <span>JavaScript</span>
+                        <div class="barra-skill">
+                            <div class="progreso javascript">
+                                <span>40%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso htmlcss">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Editor</span>
+                        <div class="barra-skill">
+                            <div class="progreso editor">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                
+                <!-- Profesional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicacion</span>
+                        <div class="barra-skill">
+                            <div class="progreso comunicacion">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso trabajoenequipo">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso creatividad">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicacion</span>
+                        <div class="barra-skill">
+                            <div class="progreso dedicacion">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Proyect Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso proyectmanagement">
+                                <span>40%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Arte</h4>
+                        <span class="casa">EES N°31</span>
+                        <span class="fecha">2017-2020</span>
+                        <p>Escuela de Arte y Danza, lo deje en 2020 porque no me gustaban las áreas de aprendizaje que tenían, en su momento solo estaba inscrito ahí porque era el colegio más cerca de mi casa</p>
+                            <div class="conectori">
+                                <div class="circuloi"></div>
+                            </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Informatica</h4>
+                        <span class="casa">Técnico informatico Personal y Profesional</span>
+                        <span class="fecha">2021-2023 (cursando) </span>
+                        <p>Tecnica Secundaria de Informatica y Programación, es la tecnica a la que asisto acutalmente y en la que estoy cursando 6to año, el año que sigue (2023) ya me estaria graduando</p>
+                            <div class="conectori">
+                                <div class="circuloi"></div>
+                            </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Programación</h4>
+                        <span class="casa">Técnico en Programación</span>
+                        <span class="fecha">2021-2023 (cursando)</span>
+                        <p>Esta técnica es igual a la anterior, solo que yo asistió a las clases de informática y programación muy pocas, ya que hago cursos de estos mismos</p>
+                            <div class="conectori">
+                                <div class="circuloi"></div>
+                            </div>
+                    </div>
+                </div>
+
+                <!-- CURSOS -->
+                <div class="col derecha">
+                    <h3>Cursos</h3>
+                    <div class="item der">
+                        <h4>Programación</h4>
+                        <span class="casa">Desarrollo Web 1 (HTML & CSS)</span>
+                        <span class="fecha">2022-2022</span>
+                        <p>Curso de la república Argentina</p>
+                            <div class="conectord">
+                                <div class="circulod"></div>
+                            </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Programación</h4>
+                        <span class="casa">Desarrollo Web 2 (JavaScript Front-End)</span>
+                        <span class="fecha">2021-2023 (cursando) </span>
+                        <p>Curso de la república Argentina</p>
+                            <div class="conectord">
+                                <div class="circulod"></div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
