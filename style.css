@@ -168,6 +168,11 @@ PT Sans
     font-family:'Belanosima';
     margin:25px 0
     }
+
+    .curriculum a{
+    color: white;
+    text-decoration: none;
+    }
     
     .sobremi .fila .col ul {
     list-style:none
